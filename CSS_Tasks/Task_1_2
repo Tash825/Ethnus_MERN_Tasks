@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<style>
+    #a{
+        padding: 20px;
+        border: 1px solid;
+        border-color: rgb(101, 131, 55);
+        border-radius: 0px;
+        height: 1000;
+        width:1000;
+    }#b{
+        padding: 20px;
+        border: 1px solid;
+        border-radius: 30%;
+        height: 100;
+        width: 100;
+        border-color: rgb(101, 131, 55);
+    }#c{
+        padding: 20px;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 100;
+        width: 100;
+        border-color: rgb(101, 131, 55);
+    }#d{
+        padding: 20px;
+        border: 1px solid;
+        height: 100;
+        width: 100;
+        border-bottom-left-radius: 30%;
+        border-top-right-radius: 30%;
+        border-color: rgb(101, 131, 55);
+    }
+</style>
+</head>
+<body>
+    <table style="padding-left: 150px;">
+        <tr>
+            <td id="a"></td>
+            <td id="a"></td>
+            <td id="b"></td>
+        </tr>
+        <tr>
+            <td id="b"></td>
+            <td id="a"></td>
+            <td id="b"></td>
+        </tr>
+        <tr>
+            <td id="c"></td>
+            <td id="a"></td>
+            <td id="d"></td>
+        </tr>
+    </table>
+</body>
