@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<title>TASK-6</title>
+<style>
+    .able{
+        border: 2px solid;
+        background-color: skyblue;
+    }
+    th,td{
+        border: 1px solid;
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        border-radius: 10%;
+    }
+    #a{
+        padding: 20px;
+        border: 2px solid;
+        border-color: rgb(101, 131, 55);
+        border-radius: 0px;
+        height: 50px;
+        width:50px;
+    }#b{
+        padding: 20px;
+        border: 2px solid;
+        border-radius: 30%;
+        height: 50px;
+        width: 50px;
+        border-color: rgb(101, 131, 55);
+    }#c{
+        padding: 20px;
+        border: 2px solid;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border-color: rgb(84, 128, 18);
+    }#d{
+        padding: 20px;
+        border: 2px solid;
+        height: 50px;
+        width: 50px;
+        border-bottom-left-radius: 30%;
+        border-top-right-radius: 30%;
+        border-color: rgb(101, 131, 55);
+    }
+</style>
+</head>
+<body>
+    <table class="able">
+        <tr>
+            <th>Frstname</th>
+            <th>Lastname</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <table style="padding-left: 350px;padding-top: 10px;">
+        <tr>
+            <td id="a"></td>
+            <td id="a"></td>
+            <td id="b"></td>
+        </tr>
+        <tr>
+            <td id="b"></td>
+            <td id="a"></td>
+            <td id="b"></td>
+        </tr>
+        <tr>
+            <td id="c"></td>
+            <td id="a"></td>
+            <td id="d"></td>
+        </tr>
+    </table>
+</body>
