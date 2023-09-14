@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK-4</title>
+        <style>
+            td{
+                padding-left: 200px;
+            }
+            button{
+                background-color: rgba(234, 48, 48, 0.209);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Fullname:</td>
+                <td><input type="text" value="Vincent Maverick Durano">
+                </td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" value="Vinz">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" value="alamuru">
+                </td>
+            </tr>
+            <tr>
+                <td>Re Password:</td>
+                <td><input type="password" value="alamuru">
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" value="Cebu, Phillippines">
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" value="22">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><select name="Gender" id="Gender">
+                    <option value="Male">Male</option>
+                <option value="Male">female</option>
+                <tr>
+                    <td><button type="submit" id="submit">save</button></td>
+                </tr>
+                          </select>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
