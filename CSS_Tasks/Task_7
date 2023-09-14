@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK-12</title>
+        <style>
+            table{
+                background-color: rgb(100, 6, 6);
+                text-align: left;
+                padding: 10px;
+            }
+            input{
+                padding: 5px;
+            }button{
+                text-align: center;
+            }
+            div{
+                box-sizing: border-box;
+                width: 100%;
+                margin: auto;
+                background-color:maroon ;
+                padding-left: 350px;
+                padding-right: 400px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }button{
+                padding-right: 150px;
+                padding-left: 150px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div  >
+        <table >
+            <tr>
+              <th>Name:</th>
+              <td><input type="text" name="name" placeholder="your name"></td>
+            </tr>
+            <tr>
+              <th>Email:</th>
+              <td><input type="email" name="email_address" placeholder="your email"></td>
+            </tr>
+            <tr>
+              <th>Password:</th>
+              <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th >Gender</th>
+                <td style="text-align: left;">Male:<input type="radio" style="text-align: left;">female
+                <input type="radio" >other<input type="radio" style="text-align: left;"></td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td style="text-align: left;"><select name="choose your Language" id="country">
+                    <option value="choose your Language">select Language</option>
+                    <option value="choose your Language" id="country">Telugu</option>
+                    <option value="choose your Language" id="country">Hindi</option>
+                    <option value="choose your Language" id="country">English</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Zipcode:</th>
+                <td><input type="text" name="Zipcode"></td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td><textarea name="address" ></textarea></td>
+              </tr>
+              <tr>
+                <th colspan="2">
+              <button type="submit" value="register" >register</button></p>
+          </th></tr></table>
+        </div>
+    </body>
+</html>
