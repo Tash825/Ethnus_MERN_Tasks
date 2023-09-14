@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            border:0.5px solid #ddd;
+            height: 50px;
+            border-radius: 0.5rem;
+
+
+        }
+        input[type=password]{
+            width: 100%;
+            border:0.5px solid #ddd;
+            height: 50px;
+            border-radius: 0.5rem;
+
+
+        }
+        .footer{
+            background-color: #ccc;
+            padding: 2px;
+        }
+        button{
+            background-color: red;
+            color: #fff;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: .5rem;
+        }
+        span{
+            float: right;
+            margin-top: 20px;
+        }
+       ::placeholder{
+        padding: 5px;
+       }
+       button[type=submit]{
+        background-color: green;
+        padding-left: 200px;
+        padding-right:200px;
+        text-align: center;
+        border: 0px;
+       }div{
+        padding-left: 50px;
+        padding-right: 150px;
+       }.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+  height: 50;
+            text-align: center;
+            align-items: center;
+            width:100px;
+            height: 100px;
+        
+}
+       
+
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+       <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8">
+            <div class="text-center">
+                <img src="./download.jpg" alt="" class="center" >
+            </div>
+            <div>
+                <b>Username</b>
+            </div>
+            <div>
+                <input type="text" name="" id="" placeholder="Enter Username">
+            </div>
+            <div>
+                <b>Password</b>
+            </div>
+            <div>
+                <input type="password" name="" id="" placeholder="Enter Password">
+            </div>
+            <div>
+                <button type="submit" value="login">login</button>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="" checked>
+                Remeber me
+            </div>
+            <div style="background-color: rgb(216, 216, 213);" >
+                <button>
+                    cancel
+                </button>
+                <span>
+                    forgot <a href="">Password?</a>
+                </span>
+
+            </div>
+
+        </div>
+        <div class="col-2">
+
+        </div>
+
+       </div>
+
+    </div>
+    
+</body>
+</html>
