@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK-5</title>
+        <style>
+            table,th,td{
+                border: 1px solid;
+                text-align: center;
+            }input{
+                padding-right: 200px;
+            }
+            button{
+                align-items: center;
+            }label{
+                padding:100px;
+                text-align: left;
+            }th{
+                box-sizing: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <div  style=" box-sizing: border-box; width: 40%;margin: auto;">
+        <table >
+            <tr>
+              <th>First Name</th>
+              <td><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+              <th>Last Name</th>
+              <td><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><input type="email" name="email_address"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+              <th style="text-align: left;"> re-enter password</th>
+              <td><input type="password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <th rowspan="2">Gender</th>
+                <td style="text-align: left;"><input type="radio" style="text-align: left;">male</tr>
+                    <tr>
+                <td style="text-align: left;"><input type="radio" style="text-align: left;padding: 0px;">female</td></td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><br><br><br><br><br><br></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td style="text-align: left;"><select name="choose your country" id="country">
+                    <option value="choose your country">choose your country</option>
+                    <option value="choose your country" id="country">india</option>
+                    <option value="choose your country" id="country">us</option>
+                    <option value="choose your country" id="country">indonesia</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Languages known</th>
+                <td>
+                    <input type="checkbox" >English
+                    <input type="checkbox" >Kannada
+                    <input type="checkbox" >Hindi
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+            <td colspan="2" style="text-align: left;"><input type="checkbox">hereby I declare all the given details are true</td>
+            </tr>
+            <tr >
+                <th colspan="2" style="text-align: right;padding-left: 200px;">log in to <a href="https://www.google.com/">ethnus</a>website</th>
+            </tr>
+          </table>
+        </div>
+        <div style="text-align: center;">
+         <button type="submit" value="register" >register</button></p>
+    </body>
+</html>
